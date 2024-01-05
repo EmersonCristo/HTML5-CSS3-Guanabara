@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(86, 81, 81);
+            margin: 0px;
+        }
+        header {
+            background-color: #245373;
+            padding: 10px;
+            margin: 30px;
+        }
+
+        h2 {
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.581);
+        }
+
+        nav {
+            background-color: #3a6144;
+            padding: 3px;
+            text-align: center;
+            box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.515);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            margin-right: 30px;
+        }
+
+        main {
+            background-color: #356969;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.515);
+        }
+
+        article {
+            background-color: #B2B40E;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #3b6646;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin: auto;
+            margin-top: 40px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Drake</a>
+            <a href="#">Drake</a>
+            <a href="#">Drake</a>
+            <a href="#">Drake</a>
+            <a href="#">Drake</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Era aqui mané</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, amet ad eligendi laudantium aperiam magni ducimus unde qui sunt ipsum error, cupiditate repellendus! Mollitia magnam impedit voluptas, reprehenderit ab sed?</p>
+                <aside>
+                    <p>Artigo escrito por José Cicero</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Emerson Cristo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
